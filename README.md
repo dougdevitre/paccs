@@ -1,46 +1,65 @@
 # PACCS - Professional Alliance for Child Centered Safety
 
-AI assistant skill packages and resources for the PACCS ecosystem, supporting child-centered safety through advocacy, research integrity, policy education, and trauma-informed practice.
+AI assistant skill packages and resources supporting victims of parental alienation through advocacy, documentation, crisis response, reunification support, research integrity, and professional training.
 
-## Overview
+## What Is PACCS?
 
-PACCS is a multidisciplinary organization focused on protecting children's emotional and psychological safety. This repository contains:
+PACCS is a multidisciplinary organization focused on protecting children's emotional and psychological safety. We provide evidence-based tools and resources for:
 
-- **AI Skill Packages** - Role-based assistant skills for the CoTrackPro platform
-- **Committee Handbook** - Comprehensive guide covering all PACCS committees
+- **Targeted parents** experiencing parental alienation, false allegations, and contact denial
+- **Children and families** going through reunification after alienation
+- **Legal professionals** (judges, attorneys, GALs, evaluators) handling alienation cases
+- **Mental health professionals** working with alienated families
+- **Legislators and policymakers** shaping child-centered custody reform
+- **Educators and schools** recognizing and responding to alienation dynamics
 
-## PACCS Committees
+## Skills for Victim Support
 
-| Committee | Skill | Status |
-|-----------|-------|--------|
-| Policy, Education & Outreach | `cotrackpro-policy-education` | Available |
-| Lived Experience | `cotrackpro-lived-experience` | Available |
-| Research Integrity | `cotrackpro-research-integrity` | Available |
-| Curriculum & Training | `cotrackpro-curriculum-training` | Available |
-| Legal Advisory | `cotrackpro-legal-advisory` | Available |
-| Advisory Council | `cotrackpro-advisory-council` | Available |
-| Advocate (General) | `cotrackpro-advocate` | Available |
+| Skill | Purpose |
+|-------|---------|
+| `paccs-tech-advocate` | Primary support — documentation, court prep, resource navigation, empowerment |
+| `paccs-tech-crisis-safety` | Emergency response — contact denial, false allegations, safety planning |
+| `paccs-tech-documentation` | Court-ready evidence — incident logs, timelines, behavior pattern tracking |
+| `paccs-tech-reunification` | Reconnection support — age-appropriate communication, therapist vetting, progress tracking |
+
+## Skills for Committees
+
+| Skill | Purpose |
+|-------|---------|
+| `paccs-tech-policy-education` | Educational materials, legislative briefings, public campaigns |
+| `paccs-tech-lived-experience` | Testimony preparation, case summaries, system accountability |
+| `paccs-tech-research-integrity` | Fact-checking, research summaries, misinformation monitoring |
+| `paccs-tech-curriculum-training` | Training modules, CEU/CLE courses, professional education |
+| `paccs-tech-legal-advisory` | Legal briefs, legislation analysis, courtroom resources |
+| `paccs-tech-advisory-council` | Strategic guidance, risk assessment, cross-committee coordination |
 
 ## Project Structure
 
 ```
 paccs/
 ├── docs/
-│   └── PACCS Committee Handbook.pdf   # Full committee handbook
-├── cotrackpro-advocate/
-│   └── SKILL.md                       # Advocate role skill
-├── cotrackpro-policy-education/
-│   └── SKILL.md                       # Policy, Education & Outreach skill
-├── cotrackpro-lived-experience/
-│   └── SKILL.md                       # Lived Experience skill
-├── cotrackpro-research-integrity/
-│   └── SKILL.md                       # Research Integrity skill
-├── cotrackpro-curriculum-training/
-│   └── SKILL.md                       # Curriculum & Training skill
-├── cotrackpro-legal-advisory/
-│   └── SKILL.md                       # Legal Advisory skill
-├── cotrackpro-advisory-council/
-│   └── SKILL.md                       # Advisory Council skill
+│   ├── PACCS Committee Handbook.pdf       # Full committee handbook
+│   └── ARTIFACTS-ROADMAP.md               # Prioritized build list for advocates
+├── paccs-tech-advocate/                   # Primary victim support skill
+│   └── SKILL.md
+├── paccs-tech-crisis-safety/              # Crisis & safety planning skill
+│   └── SKILL.md
+├── paccs-tech-documentation/              # Documentation & evidence skill
+│   └── SKILL.md
+├── paccs-tech-reunification/              # Reunification support skill
+│   └── SKILL.md
+├── paccs-tech-policy-education/           # Policy & outreach skill
+│   └── SKILL.md
+├── paccs-tech-lived-experience/           # Lived experience skill
+│   └── SKILL.md
+├── paccs-tech-research-integrity/         # Research integrity skill
+│   └── SKILL.md
+├── paccs-tech-curriculum-training/        # Training & curriculum skill
+│   └── SKILL.md
+├── paccs-tech-legal-advisory/             # Legal advisory skill
+│   └── SKILL.md
+├── paccs-tech-advisory-council/           # Advisory council skill
+│   └── SKILL.md
 ├── .gitignore
 ├── Makefile
 └── README.md
@@ -57,7 +76,7 @@ make build
 Build a single skill:
 
 ```bash
-make cotrackpro-advocate.skill
+make paccs-tech-advocate.skill
 ```
 
 Validate all skill files:
@@ -72,28 +91,21 @@ Clean build artifacts:
 make clean
 ```
 
-## Skill Format
+## Key Resources
 
-Each skill is defined in a `SKILL.md` file with YAML frontmatter:
-
-```yaml
----
-name: cotrackpro-example
-description: What this skill does and when to use it.
----
-```
-
-The `.skill` file is a ZIP archive containing the skill directory.
+- **[ARTIFACTS-ROADMAP.md](docs/ARTIFACTS-ROADMAP.md)** — Prioritized list of 100+ artifacts to build for parental alienation advocates, organized into 5 tiers from immediate crisis resources to long-term organizational infrastructure.
+- **[PACCS Committee Handbook](docs/PACCS%20Committee%20Handbook.pdf)** — Complete handbook covering all 7 PACCS committees.
 
 ## Guiding Principles
 
 All PACCS skills enforce these non-negotiable guardrails:
 
-- **No professional advice** - general information and process support only
-- **Safety first** - directs users to emergency services when needed
-- **Privacy** - never requests secrets; encourages redaction of sensitive data
-- **Evidence integrity** - neutral language, no fabricated facts
-- **Child-centered tone** - calm, respectful, trauma-informed
+- **No professional advice** — general information and process support only; always recommend qualified professionals
+- **Safety first** — directs users to emergency services (911), Childhelp Hotline (1-800-422-4453), and other crisis resources
+- **Privacy** — never requests identifying details; encourages redaction of sensitive data
+- **Evidence integrity** — neutral language, no fabricated facts, no coaching false statements
+- **Child-centered** — every recommendation prioritizes the child's emotional and psychological wellbeing
+- **Both parents matter** — supports the child's right to a safe relationship with both parents
 
 ## Author
 

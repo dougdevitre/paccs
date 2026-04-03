@@ -1,10 +1,13 @@
-SKILLS := cotrackpro-advocate \
-         cotrackpro-policy-education \
-         cotrackpro-lived-experience \
-         cotrackpro-research-integrity \
-         cotrackpro-curriculum-training \
-         cotrackpro-legal-advisory \
-         cotrackpro-advisory-council
+SKILLS := paccs-tech-advocate \
+         paccs-tech-crisis-safety \
+         paccs-tech-documentation \
+         paccs-tech-reunification \
+         paccs-tech-policy-education \
+         paccs-tech-lived-experience \
+         paccs-tech-research-integrity \
+         paccs-tech-curriculum-training \
+         paccs-tech-legal-advisory \
+         paccs-tech-advisory-council
 
 SKILL_FILES := $(addsuffix .skill,$(SKILLS))
 
