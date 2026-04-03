@@ -1,21 +1,34 @@
-SKILL_NAME := cotrackpro-advocate
-SKILL_FILE := $(SKILL_NAME).skill
+SKILLS := paccs-tech-advocate \
+         paccs-tech-crisis-safety \
+         paccs-tech-documentation \
+         paccs-tech-reunification \
+         paccs-tech-policy-education \
+         paccs-tech-lived-experience \
+         paccs-tech-research-integrity \
+         paccs-tech-curriculum-training \
+         paccs-tech-legal-advisory \
+         paccs-tech-advisory-council
+
+SKILL_FILES := $(addsuffix .skill,$(SKILLS))
 
 .PHONY: build clean lint
 
-build: $(SKILL_FILE)
+build: $(SKILL_FILES)
 
-$(SKILL_FILE): $(SKILL_NAME)/SKILL.md
-	@echo "Packaging $(SKILL_FILE)..."
-	zip -r $(SKILL_FILE) $(SKILL_NAME)/
-	@echo "Done: $(SKILL_FILE)"
+%.skill: %/SKILL.md
+	@echo "Packaging $@..."
+	@zip -r $@ $*/
+	@echo "Done: $@"
 
 clean:
-	rm -f $(SKILL_FILE)
+	rm -f $(SKILL_FILES)
 
 lint:
-	@echo "Checking SKILL.md structure..."
-	@head -1 $(SKILL_NAME)/SKILL.md | grep -q '^---' || (echo "ERROR: Missing YAML frontmatter" && exit 1)
-	@grep -q '^name:' $(SKILL_NAME)/SKILL.md || (echo "ERROR: Missing 'name' in frontmatter" && exit 1)
-	@grep -q '^description:' $(SKILL_NAME)/SKILL.md || (echo "ERROR: Missing 'description' in frontmatter" && exit 1)
-	@echo "SKILL.md structure OK"
+	@fail=0; \
+	for skill in $(SKILLS); do \
+		echo "Checking $$skill/SKILL.md..."; \
+		head -1 $$skill/SKILL.md | grep -q '^---' || { echo "  ERROR: Missing YAML frontmatter"; fail=1; }; \
+		grep -q '^name:' $$skill/SKILL.md || { echo "  ERROR: Missing 'name' field"; fail=1; }; \
+		grep -q '^description:' $$skill/SKILL.md || { echo "  ERROR: Missing 'description' field"; fail=1; }; \
+	done; \
+	if [ $$fail -eq 0 ]; then echo "All skills OK"; else echo "Lint failed"; exit 1; fi
