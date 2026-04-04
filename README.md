@@ -394,31 +394,60 @@ make clean                        # Remove build artifacts
 
 ```
 paccs/
-├── docs/
-│   ├── ADVOCATE-HANDBOOK.md               # Comprehensive advocate support guide
-│   ├── ARTIFACTS-ROADMAP.md               # 100+ prioritized artifacts to build
-│   ├── PACCS Committee Handbook.pdf       # Full committee handbook
-│   ├── REUNIFICATION-PROTOCOL.md          # 5-phase reunification framework
-│   └── VICTIMS-GUIDE.md                   # Step-by-step guide for targeted parents
-├── paccs-tech-advocate/                   # Primary victim support
+├── docs/                                  # Core handbooks & guides
+│   ├── ADVOCATE-HANDBOOK.md
+│   ├── ARTIFACTS-ROADMAP.md
+│   ├── PACCS Committee Handbook.pdf
+│   ├── REUNIFICATION-PROTOCOL.md
+│   └── VICTIMS-GUIDE.md
+├── templates/                             # Standalone fillable templates
+│   ├── communication/                     #   Co-parent BIFF scripts
+│   ├── court-prep/                        #   Know-your-rights, court checklists
+│   ├── documentation/                     #   Incident logs, timelines, trackers
+│   ├── reunification/                     #   Letters, readiness checklists
+│   ├── safety/                            #   Safety plans, emergency guides
+│   └── vetting/                           #   Attorney & therapist questionnaires
+├── scripts/                               # Communication scripts
+│   ├── attorney/                          #   Attorney & GAL meeting prep
+│   ├── co-parent/                         #   BIFF method, exchanges, allegations
+│   ├── court-testimony/                   #   Testimony preparation
+│   ├── media-interview/                   #   Media talking points
+│   └── school/                            #   School & medical provider scripts
+├── outreach/                              # Public-facing materials
+│   ├── legislative/                       #   Briefing packets, model language
+│   ├── media/                             #   Press releases, op-eds
+│   ├── myth-vs-fact/                      #   5 evidence-based debunking sheets
+│   ├── social-media/                      #   Campaign kit with post templates
+│   └── video-scripts/                     #   60-second explainer scripts
+├── processes/                             # Operational workflows
+│   ├── legislative-engagement-process.md
+│   ├── material-distribution-workflow.md
+│   ├── outreach-campaign-planning.md
+│   └── public-awareness-campaign-process.md
+├── education/                             # Educational reference materials
+│   ├── alienation-as-child-abuse-brief.md
+│   ├── alienation-vs-estrangement-chart.md
+│   ├── false-allegations-fact-sheet.md
+│   └── glossary.md
+├── paccs-tech-advocate/                   # Skill: Primary victim support
 │   └── SKILL.md
-├── paccs-tech-crisis-safety/              # Crisis & safety planning
+├── paccs-tech-crisis-safety/              # Skill: Crisis & safety planning
 │   └── SKILL.md
-├── paccs-tech-documentation/              # Documentation & evidence
+├── paccs-tech-documentation/              # Skill: Documentation & evidence
 │   └── SKILL.md
-├── paccs-tech-reunification/              # Reunification support
+├── paccs-tech-reunification/              # Skill: Reunification support
 │   └── SKILL.md
-├── paccs-tech-policy-education/           # Policy & outreach
+├── paccs-tech-policy-education/           # Skill: Policy & outreach
 │   └── SKILL.md
-├── paccs-tech-lived-experience/           # Lived experience
+├── paccs-tech-lived-experience/           # Skill: Lived experience
 │   └── SKILL.md
-├── paccs-tech-research-integrity/         # Research integrity
+├── paccs-tech-research-integrity/         # Skill: Research integrity
 │   └── SKILL.md
-├── paccs-tech-curriculum-training/        # Training & curriculum
+├── paccs-tech-curriculum-training/        # Skill: Training & curriculum
 │   └── SKILL.md
-├── paccs-tech-legal-advisory/             # Legal advisory
+├── paccs-tech-legal-advisory/             # Skill: Legal advisory
 │   └── SKILL.md
-├── paccs-tech-advisory-council/           # Advisory council
+├── paccs-tech-advisory-council/           # Skill: Advisory council
 │   └── SKILL.md
 ├── .gitignore
 ├── CHANGELOG.md                           # Version history
