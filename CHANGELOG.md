@@ -4,6 +4,25 @@ All notable changes to the PACCS project will be documented in this file.
 
 ---
 
+## [1.3.0] - 2026-04-04
+
+### Added — Marketing Campaigns by Advocate Type (8 new files)
+- **outreach/campaigns/** — 8 targeted marketing campaigns, each with 4-phase rollout, content calendar, 12 social media posts, 3-email sequence, and linked PACCS resources:
+  - campaign-parent-self-advocates.md — For parents in crisis
+  - campaign-family-members.md — For grandparents, siblings, extended family
+  - campaign-professional-advocates.md — For case managers, victim services, nonprofits
+  - campaign-support-group-leaders.md — For support group facilitators
+  - campaign-legal-professionals.md — CLE-focused for attorneys, judges, GALs
+  - campaign-mental-health-professionals.md — CEU-focused for therapists, counselors
+  - campaign-legislators-policymakers.md — Nonpartisan policy engagement
+  - campaign-educators-schools.md — FERPA-focused for school personnel
+  - campaigns/README.md — Campaign index and usage guide
+
+### Improved
+- **outreach/README.md** — Added campaigns section to directory index
+
+---
+
 ## [1.2.0] - 2026-04-04
 
 ### Added — Communication Outreach Library (57 new files)

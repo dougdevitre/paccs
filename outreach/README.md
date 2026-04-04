@@ -51,6 +51,19 @@ Each subdirectory contains copy/paste-ready materials organized by audience and 
 | [alienation-is-custody-tactic.md](myth-vs-fact/alienation-is-custody-tactic.md) | Addresses the myth that parental alienation claims are only a custody tactic used by abusers | General Public, Media, Professionals |
 | [reunification-is-forced-contact.md](myth-vs-fact/reunification-is-forced-contact.md) | Addresses the myth that reunification programs force children into contact with abusers | General Public, Media, Professionals |
 
+### `campaigns/` — Targeted Marketing Campaigns by Advocate Type
+
+| File | Description | Audience |
+|------|-------------|----------|
+| [campaign-parent-self-advocates.md](campaigns/campaign-parent-self-advocates.md) | 8-week campaign to equip parents with documentation tools and professional connections | Parents experiencing alienation |
+| [campaign-family-members.md](campaigns/campaign-family-members.md) | 6-week campaign educating grandparents/siblings on safe support strategies | Extended family members |
+| [campaign-professional-advocates.md](campaigns/campaign-professional-advocates.md) | 8-week campaign providing professional-grade tools and training | Case managers, victim services, nonprofits |
+| [campaign-support-group-leaders.md](campaigns/campaign-support-group-leaders.md) | 6-week campaign with facilitation tools and peer network | Support group facilitators |
+| [campaign-legal-professionals.md](campaigns/campaign-legal-professionals.md) | 8-week CLE-focused campaign with courtroom resources | Attorneys, judges, GALs, evaluators |
+| [campaign-mental-health-professionals.md](campaigns/campaign-mental-health-professionals.md) | 8-week CEU-focused campaign with clinical assessment tools | Therapists, psychologists, counselors |
+| [campaign-legislators-policymakers.md](campaigns/campaign-legislators-policymakers.md) | 12-week nonpartisan campaign with model legislation | State legislators, policy staff |
+| [campaign-educators-schools.md](campaigns/campaign-educators-schools.md) | 6-week FERPA-focused campaign for school personnel | Teachers, counselors, principals |
+
 ---
 
 ## PACCS Five Pillars of Child-Centered Safety
