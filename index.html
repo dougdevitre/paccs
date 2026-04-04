@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PACCS — Professional Alliance for Child Centered Safety. Protecting children's emotional and psychological safety through advocacy, documentation, crisis response, reunification support, and professional training.">
+    <meta name="keywords" content="parental alienation, child safety, family reunification, custody reform, child advocacy, PACCS">
+    <meta name="author" content="Doug Devitre">
+    <meta property="og:title" content="PACCS — Professional Alliance for Child Centered Safety">
+    <meta property="og:description" content="AI-powered skill packages and resources supporting victims of parental alienation through advocacy, documentation, crisis response, reunification support, research integrity, and professional training.">
+    <meta property="og:type" content="website">
+    <title>PACCS — Professional Alliance for Child Centered Safety</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background: #fff;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            line-height: 1.2;
+        }
+
+        /* NAV */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(26, 35, 126, 0.97);
+            backdrop-filter: blur(10px);
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+
+        nav .logo {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            font-size: 1.4rem;
+            color: #fff;
+            letter-spacing: 2px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav ul li a {
+            color: rgba(255,255,255,0.85);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            transition: color 0.2s;
+        }
+
+        nav ul li a:hover {
+            color: #fff;
+        }
+
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .nav-toggle span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: #fff;
+            margin: 5px 0;
+            transition: 0.3s;
+        }
+
+        /* HERO */
+        .hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1a237e 0%, #283593 40%, #3949ab 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 6rem 2rem 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(ellipse at 30% 50%, rgba(255,255,255,0.05) 0%, transparent 50%),
+                        radial-gradient(ellipse at 70% 50%, rgba(255,255,255,0.03) 0%, transparent 50%);
+            animation: subtleFloat 20s ease-in-out infinite;
+        }
+
+        @keyframes subtleFloat {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(-2%, 1%); }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            font-size: clamp(3rem, 7vw, 5rem);
+            color: #fff;
+            font-weight: 700;
+            letter-spacing: 4px;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero .tagline {
+            font-size: clamp(1rem, 2.5vw, 1.35rem);
+            color: rgba(255,255,255,0.9);
+            font-weight: 300;
+            letter-spacing: 1px;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero .subtitle {
+            font-size: clamp(0.95rem, 2vw, 1.1rem);
+            color: rgba(255,255,255,0.7);
+            max-width: 600px;
+            margin: 0 auto 2.5rem;
+            font-weight: 300;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: #fff;
+            color: #1a237e;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-decoration: none;
+            border-radius: 50px;
+            letter-spacing: 0.5px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 5rem 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            text-align: center;
+            margin-bottom: 0.75rem;
+            color: #1a237e;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto 3rem;
+            font-size: 1.05rem;
+        }
+
+        /* WHAT IS PACCS */
+        .about {
+            background: #f8f9ff;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .about-item {
+            background: #fff;
+            padding: 1.75rem;
+            border-radius: 12px;
+            border-left: 4px solid #1a237e;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .about-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+
+        .about-item strong {
+            color: #1a237e;
+        }
+
+        /* PILLARS */
+        .pillars {
+            background: #fff;
+        }
+
+        .pillars-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .pillar-card {
+            background: linear-gradient(135deg, #1a237e, #3949ab);
+            color: #fff;
+            padding: 2rem 1.5rem;
+            border-radius: 16px;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .pillar-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px rgba(26, 35, 126, 0.3);
+        }
+
+        .pillar-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .pillar-card ul {
+            list-style: none;
+            text-align: left;
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .pillar-card ul li {
+            padding: 0.3rem 0;
+            padding-left: 1.2rem;
+            position: relative;
+        }
+
+        .pillar-card ul li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.7rem;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.6);
+        }
+
+        /* SKILLS */
+        .skills {
+            background: #f8f9ff;
+        }
+
+        .skills-section-label {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+
+        .skills-victim-label {
+            color: #2e7d32;
+            border-bottom: 3px solid #2e7d32;
+        }
+
+        .skills-committee-label {
+            color: #1565c0;
+            border-bottom: 3px solid #1565c0;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.25rem;
+            margin-bottom: 3rem;
+        }
+
+        .skill-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 1.75rem;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border-top: 4px solid transparent;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+        }
+
+        .skill-card.victim {
+            border-top-color: #2e7d32;
+        }
+
+        .skill-card.committee {
+            border-top-color: #1565c0;
+        }
+
+        .skill-card .skill-name {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #888;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 0.25rem;
+        }
+
+        .skill-card h3 {
+            font-size: 1.15rem;
+            color: #1a237e;
+            margin-bottom: 0.5rem;
+        }
+
+        .skill-card .purpose {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 1rem;
+        }
+
+        .skill-card .deliverables {
+            font-size: 0.85rem;
+            color: #777;
+            line-height: 1.7;
+        }
+
+        .skill-card .deliverables span {
+            display: inline-block;
+            background: #f0f4ff;
+            padding: 0.2rem 0.6rem;
+            border-radius: 20px;
+            margin: 0.15rem 0.1rem;
+            font-size: 0.8rem;
+        }
+
+        .skill-card.victim .deliverables span {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .skill-card.committee .deliverables span {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        /* JOURNEY TIMELINE */
+        .journey {
+            background: #fff;
+            overflow-x: auto;
+        }
+
+        .timeline {
+            display: flex;
+            align-items: stretch;
+            gap: 0;
+            min-width: 900px;
+            padding: 2rem 0;
+        }
+
+        .timeline-step {
+            flex: 1;
+            text-align: center;
+            position: relative;
+            padding: 0 0.75rem;
+        }
+
+        .timeline-step::after {
+            content: '';
+            position: absolute;
+            top: 2.25rem;
+            right: -1px;
+            width: calc(100%);
+            height: 3px;
+            background: #ddd;
+            z-index: 0;
+        }
+
+        .timeline-step:last-child::after {
+            display: none;
+        }
+
+        .timeline-dot {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: #fff;
+            position: relative;
+            z-index: 1;
+        }
+
+        .timeline-step:nth-child(1) .timeline-dot { background: #c62828; }
+        .timeline-step:nth-child(2) .timeline-dot { background: #e65100; }
+        .timeline-step:nth-child(3) .timeline-dot { background: #1565c0; }
+        .timeline-step:nth-child(4) .timeline-dot { background: #6a1b9a; }
+        .timeline-step:nth-child(5) .timeline-dot { background: #2e7d32; }
+        .timeline-step:nth-child(6) .timeline-dot { background: #2e7d32; }
+
+        .timeline-step h4 {
+            font-size: 1rem;
+            color: #1a237e;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-step .timeline-details {
+            font-size: 0.82rem;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .timeline-scroll-hint {
+            text-align: center;
+            color: #999;
+            font-size: 0.85rem;
+            margin-top: 1rem;
+            display: none;
+        }
+
+        /* ALIENATION BEHAVIORS */
+        .alienation {
+            background: #fff8f8;
+        }
+
+        .alienation-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1rem;
+        }
+
+        .alienation-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 1.5rem;
+            border-left: 4px solid #c62828;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        .alienation-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(198, 40, 40, 0.12);
+        }
+
+        .alienation-num {
+            background: #c62828;
+            color: #fff;
+            width: 36px;
+            height: 36px;
+            min-width: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        .alienation-card h4 {
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 0.25rem;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+        }
+
+        .alienation-card p {
+            font-size: 0.88rem;
+            color: #777;
+        }
+
+        /* CRISIS RESOURCES */
+        .crisis {
+            background: #c62828;
+            color: #fff;
+        }
+
+        .crisis .section-title {
+            color: #fff;
+        }
+
+        .crisis .section-subtitle {
+            color: rgba(255,255,255,0.85);
+        }
+
+        .crisis-table {
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        .crisis-table tr {
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .crisis-table tr:last-child {
+            border-bottom: none;
+        }
+
+        .crisis-table td {
+            padding: 1rem 0.75rem;
+            font-size: 1rem;
+        }
+
+        .crisis-table td:first-child {
+            font-weight: 500;
+            opacity: 0.95;
+        }
+
+        .crisis-table td:last-child {
+            text-align: right;
+            font-weight: 700;
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+        }
+
+        .crisis-table a {
+            color: #fff;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .crisis-table .emergency-row td {
+            font-size: 1.2rem;
+            padding: 1.25rem 0.75rem;
+        }
+
+        /* GUIDING PRINCIPLES */
+        .principles {
+            background: #f8f9ff;
+        }
+
+        .principles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.25rem;
+        }
+
+        .principle-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 1.75rem;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            border-bottom: 3px solid #1a237e;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .principle-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+        }
+
+        .principle-card h4 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a237e;
+            margin-bottom: 0.5rem;
+        }
+
+        .principle-card p {
+            font-size: 0.92rem;
+            color: #666;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #1a237e;
+            color: rgba(255,255,255,0.8);
+            text-align: center;
+            padding: 3rem 2rem;
+        }
+
+        footer .footer-tagline {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            font-style: italic;
+            color: #fff;
+            margin-bottom: 0.75rem;
+        }
+
+        footer .footer-credit {
+            font-size: 0.85rem;
+            opacity: 0.7;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                position: absolute;
+                top: 64px;
+                left: 0;
+                right: 0;
+                background: rgba(26, 35, 126, 0.98);
+                flex-direction: column;
+                padding: 1rem 2rem 1.5rem;
+                gap: 0.75rem;
+            }
+
+            nav ul.active {
+                display: flex;
+            }
+
+            .nav-toggle {
+                display: block;
+            }
+
+            .timeline-scroll-hint {
+                display: block;
+            }
+
+            .pillars-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            section {
+                padding: 3.5rem 1.25rem;
+            }
+
+            .principles-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .pillars-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+    <div class="logo">PACCS</div>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('nav ul').classList.toggle('active')">
+        <span></span><span></span><span></span>
+    </button>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#pillars">Pillars</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#alienation">Recognize</a></li>
+        <li><a href="#crisis">Crisis</a></li>
+        <li><a href="#principles">Principles</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+    <div class="hero-content">
+        <h1>PACCS</h1>
+        <p class="tagline">Professional Alliance for Child Centered Safety</p>
+        <p class="subtitle">Protecting children's emotional and psychological safety through evidence-based advocacy, documentation, crisis response, reunification support, and professional training.</p>
+        <a href="#skills" class="cta-btn">Explore Our Skills</a>
+    </div>
+</section>
+
+<!-- WHAT IS PACCS -->
+<section class="about" id="about">
+    <div class="container">
+        <h2 class="section-title">What Is PACCS?</h2>
+        <p class="section-subtitle">A multidisciplinary organization focused on protecting children's emotional and psychological safety. We provide evidence-based tools and resources for:</p>
+        <div class="about-grid">
+            <div class="about-item">
+                <strong>Targeted Parents</strong>
+                <p>Experiencing parental alienation, false allegations, and contact denial</p>
+            </div>
+            <div class="about-item">
+                <strong>Children &amp; Families</strong>
+                <p>Going through reunification after alienation</p>
+            </div>
+            <div class="about-item">
+                <strong>Legal Professionals</strong>
+                <p>Judges, attorneys, GALs, and evaluators handling alienation cases</p>
+            </div>
+            <div class="about-item">
+                <strong>Mental Health Professionals</strong>
+                <p>Working with alienated families</p>
+            </div>
+            <div class="about-item">
+                <strong>Legislators &amp; Policymakers</strong>
+                <p>Shaping child-centered custody reform</p>
+            </div>
+            <div class="about-item">
+                <strong>Educators &amp; Schools</strong>
+                <p>Recognizing and responding to alienation dynamics</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FIVE PILLARS -->
+<section class="pillars" id="pillars">
+    <div class="container">
+        <h2 class="section-title">Five Pillars of Child-Centered Safety</h2>
+        <p class="section-subtitle">The foundational principles guiding every PACCS resource and recommendation.</p>
+        <div class="pillars-grid">
+            <div class="pillar-card">
+                <h3>Emotional Safety</h3>
+                <ul>
+                    <li>Stable, secure attachment</li>
+                    <li>Protection from loyalty conflicts</li>
+                    <li>Right to love both parents</li>
+                </ul>
+            </div>
+            <div class="pillar-card">
+                <h3>Psychological Health</h3>
+                <ul>
+                    <li>Freedom from fear and rejection</li>
+                    <li>No role-reversal or parentification</li>
+                    <li>Developmentally appropriate expectations</li>
+                </ul>
+            </div>
+            <div class="pillar-card">
+                <h3>Truth &amp; Evidence</h3>
+                <ul>
+                    <li>Grounded in peer-reviewed research</li>
+                    <li>Validated clinical standards</li>
+                    <li>Accurate terminology and definitions</li>
+                </ul>
+            </div>
+            <div class="pillar-card">
+                <h3>Protection from System Abuse</h3>
+                <ul>
+                    <li>False allegations recognized as harm</li>
+                    <li>Litigation abuse identified</li>
+                    <li>Coercive influence through institutions flagged</li>
+                </ul>
+            </div>
+            <div class="pillar-card">
+                <h3>Family Preservation &amp; Healing</h3>
+                <ul>
+                    <li>Ethical evidence-based reunification</li>
+                    <li>Non-coercive therapeutic approaches</li>
+                    <li>Long-term relationship rebuilding</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS ECOSYSTEM -->
+<section class="skills" id="skills">
+    <div class="container">
+        <h2 class="section-title">Skills Ecosystem</h2>
+        <p class="section-subtitle">AI-powered skill packages providing targeted support across two dimensions: direct victim support and organizational committee work.</p>
+
+        <h3 class="skills-section-label skills-victim-label">Victim Support Skills</h3>
+        <div class="skills-grid">
+            <div class="skill-card victim">
+                <div class="skill-name">paccs-tech-advocate</div>
+                <h3>Advocate</h3>
+                <p class="purpose">Primary support for targeted parents</p>
+                <div class="deliverables">
+                    <span>Incident logs</span>
+                    <span>Court prep checklists</span>
+                    <span>Communication scripts</span>
+                    <span>Evidence organization</span>
+                    <span>Safety plans</span>
+                    <span>Resource navigation</span>
+                </div>
+            </div>
+            <div class="skill-card victim">
+                <div class="skill-name">paccs-tech-crisis-safety</div>
+                <h3>Crisis Safety</h3>
+                <p class="purpose">Emergency response guidance</p>
+                <div class="deliverables">
+                    <span>Emergency action checklists</span>
+                    <span>6 crisis scenarios</span>
+                    <span>Safety plan templates</span>
+                    <span>Crisis hotline resources</span>
+                </div>
+            </div>
+            <div class="skill-card victim">
+                <div class="skill-name">paccs-tech-documentation</div>
+                <h3>Documentation</h3>
+                <p class="purpose">Court-ready evidence building</p>
+                <div class="deliverables">
+                    <span>Incident log templates</span>
+                    <span>Master timelines</span>
+                    <span>Behavior pattern trackers</span>
+                    <span>Evidence inventories</span>
+                    <span>Court-ready language guide</span>
+                </div>
+            </div>
+            <div class="skill-card victim">
+                <div class="skill-name">paccs-tech-reunification</div>
+                <h3>Reunification</h3>
+                <p class="purpose">Family reconnection support</p>
+                <div class="deliverables">
+                    <span>Age-appropriate letters</span>
+                    <span>Therapist vetting</span>
+                    <span>Reunification milestones</span>
+                    <span>Red flag identification</span>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="skills-section-label skills-committee-label">Committee Skills</h3>
+        <div class="skills-grid">
+            <div class="skill-card committee">
+                <div class="skill-name">paccs-tech-policy-education</div>
+                <h3>Policy &amp; Education</h3>
+                <p class="purpose">Public education &amp; legislative outreach</p>
+                <div class="deliverables">
+                    <span>Legislative one-pagers</span>
+                    <span>Myth vs. fact sheets</span>
+                    <span>Video scripts</span>
+                    <span>Advocacy asks</span>
+                </div>
+            </div>
+            <div class="skill-card committee">
+                <div class="skill-name">paccs-tech-lived-experience</div>
+                <h3>Lived Experience</h3>
+                <p class="purpose">Survivor-informed review &amp; testimony</p>
+                <div class="deliverables">
+                    <span>Anonymized case summaries</span>
+                    <span>Testimony preparation</span>
+                    <span>Material review</span>
+                    <span>System gap reports</span>
+                </div>
+            </div>
+            <div class="skill-card committee">
+                <div class="skill-name">paccs-tech-research-integrity</div>
+                <h3>Research Integrity</h3>
+                <p class="purpose">Scientific accuracy &amp; fact-checking</p>
+                <div class="deliverables">
+                    <span>Fact-check reports</span>
+                    <span>Research summaries</span>
+                    <span>Legislation tracking</span>
+                    <span>Misinformation alerts</span>
+                </div>
+            </div>
+            <div class="skill-card committee">
+                <div class="skill-name">paccs-tech-curriculum-training</div>
+                <h3>Curriculum &amp; Training</h3>
+                <p class="purpose">Professional education programs</p>
+                <div class="deliverables">
+                    <span>CEU/CLE modules</span>
+                    <span>Training outlines</span>
+                    <span>Assessments</span>
+                    <span>Facilitator guides</span>
+                    <span>Role-play scenarios</span>
+                </div>
+            </div>
+            <div class="skill-card committee">
+                <div class="skill-name">paccs-tech-legal-advisory</div>
+                <h3>Legal Advisory</h3>
+                <p class="purpose">Legal standards &amp; court resources</p>
+                <div class="deliverables">
+                    <span>Legislation summaries</span>
+                    <span>Motion templates</span>
+                    <span>Courtroom scripts</span>
+                    <span>CLE content</span>
+                    <span>Legal trend reports</span>
+                </div>
+            </div>
+            <div class="skill-card committee">
+                <div class="skill-name">paccs-tech-advisory-council</div>
+                <h3>Advisory Council</h3>
+                <p class="purpose">Strategic organizational guidance</p>
+                <div class="deliverables">
+                    <span>Strategic reviews</span>
+                    <span>Risk assessments</span>
+                    <span>Cross-committee coordination</span>
+                    <span>Partnership recommendations</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- VICTIM SUPPORT JOURNEY -->
+<section class="journey" id="journey">
+    <div class="container">
+        <h2 class="section-title">Victim Support Journey</h2>
+        <p class="section-subtitle">How a targeted parent moves through PACCS resources from crisis to recovery.</p>
+        <p class="timeline-scroll-hint">Scroll horizontally to see the full journey &rarr;</p>
+        <div style="overflow-x: auto; padding-bottom: 1rem;">
+            <div class="timeline">
+                <div class="timeline-step">
+                    <div class="timeline-dot">1</div>
+                    <h4>Crisis</h4>
+                    <div class="timeline-details">Contact denied<br>False allegations<br>Child withheld</div>
+                </div>
+                <div class="timeline-step">
+                    <div class="timeline-dot">2</div>
+                    <h4>Crisis Safety</h4>
+                    <div class="timeline-details">Emergency actions<br>Safety planning<br>Crisis hotlines</div>
+                </div>
+                <div class="timeline-step">
+                    <div class="timeline-dot">3</div>
+                    <h4>Documentation</h4>
+                    <div class="timeline-details">Incident logs<br>Evidence collection<br>Pattern tracking</div>
+                </div>
+                <div class="timeline-step">
+                    <div class="timeline-dot">4</div>
+                    <h4>Advocate</h4>
+                    <div class="timeline-details">Court prep<br>Attorney vetting<br>Rights awareness<br>Communication</div>
+                </div>
+                <div class="timeline-step">
+                    <div class="timeline-dot">5</div>
+                    <h4>Reunification</h4>
+                    <div class="timeline-details">Reconnection<br>Therapist vetting<br>Age-appropriate<br>communication</div>
+                </div>
+                <div class="timeline-step">
+                    <div class="timeline-dot">6</div>
+                    <h4>Recovery</h4>
+                    <div class="timeline-details">Restored contact<br>Rebuilt relationship<br>Ongoing support</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- RECOGNIZING PARENTAL ALIENATION -->
+<section class="alienation" id="alienation">
+    <div class="container">
+        <h2 class="section-title">Recognizing Parental Alienation</h2>
+        <p class="section-subtitle">The 10 categories of alienating behavior that PACCS skills help document and address.</p>
+        <div class="alienation-grid">
+            <div class="alienation-card">
+                <div class="alienation-num">1</div>
+                <div>
+                    <h4>Access Denial</h4>
+                    <p>Blocking visitation, creating scheduling conflicts</p>
+                </div>
+            </div>
+            <div class="alienation-card">
+                <div class="alienation-num">2</div>
+                <div>
+                    <h4>Denigration</h4>
+                    <p>Badmouthing the targeted parent</p>
+                </div>
+            </div>
+            <div class="alienation-card">
+                <div class="alienation-num">3</div>
+                <div>
+                    <h4>Limiting Contact</h4>
+                    <p>Restricting calls, blocking messages</p>
+                </div>
+            </div>
+            <div class="alienation-card">
+                <div class="alienation-num">4</div>
+                <div>
+                    <h4>Emotional Manipulation</h4>
+                    <p>Guilt for loving the other parent</p>
+                </div>
+            </div>
+            <div class="alienation-card">
+                <div class="alienation-num">5</div>
+                <div>
+                    <h4>False Allegations</h4>
+                    <p>Fabricating abuse or safety concerns</p>
+                </div>
+            </div>
+            <div class="alienation-card">
+                <div class="alienation-num">6</div>
+                <div>
+                    <h4>Role Reversal</h4>
+                    <p>Child as messenger, spy, or confidant</p>
+                </div>
+            </div>
+            <div class="alienation-card">
+                <div class="alienation-num">7</div>
+                <div>
+                    <h4>Erasing the Other Parent</h4>
+                    <p>Removing photos, changing names</p>
+                </div>
+            </div>
+            <div class="alienation-card">
+                <div class="alienation-num">8</div>
+                <div>
+                    <h4>Institutional Manipulation</h4>
+                    <p>Using schools, doctors to exclude a parent</p>
+                </div>
+            </div>
+            <div class="alienation-card">
+                <div class="alienation-num">9</div>
+                <div>
+                    <h4>Legal Abuse</h4>
+                    <p>Weaponizing courts through endless motions</p>
+                </div>
+            </div>
+            <div class="alienation-card">
+                <div class="alienation-num">10</div>
+                <div>
+                    <h4>Enmeshment</h4>
+                    <p>Child mirrors alienating parent's views</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CRISIS RESOURCES -->
+<section class="crisis" id="crisis">
+    <div class="container">
+        <h2 class="section-title">Crisis Resources</h2>
+        <p class="section-subtitle">If you or someone you know is in immediate danger, reach out now.</p>
+        <table class="crisis-table">
+            <tr class="emergency-row">
+                <td>Emergency</td>
+                <td>911</td>
+            </tr>
+            <tr>
+                <td>Childhelp National Child Abuse Hotline</td>
+                <td>1-800-422-4453</td>
+            </tr>
+            <tr>
+                <td>National Domestic Violence Hotline</td>
+                <td>1-800-799-7233</td>
+            </tr>
+            <tr>
+                <td>National Suicide Prevention Lifeline</td>
+                <td>988</td>
+            </tr>
+            <tr>
+                <td>Crisis Text Line</td>
+                <td>Text HOME to 741741</td>
+            </tr>
+            <tr>
+                <td>National Center for Missing &amp; Exploited Children</td>
+                <td>1-800-843-5678</td>
+            </tr>
+            <tr>
+                <td>Legal Aid</td>
+                <td><a href="https://lawhelp.org" target="_blank" rel="noopener">lawhelp.org</a></td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<!-- GUIDING PRINCIPLES -->
+<section class="principles" id="principles">
+    <div class="container">
+        <h2 class="section-title">Guiding Principles</h2>
+        <p class="section-subtitle">All PACCS skills enforce these non-negotiable guardrails.</p>
+        <div class="principles-grid">
+            <div class="principle-card">
+                <h4>No Professional Advice</h4>
+                <p>General information and process support only; always recommend qualified professionals.</p>
+            </div>
+            <div class="principle-card">
+                <h4>Safety First</h4>
+                <p>Directs users to emergency services and crisis hotlines when danger is present.</p>
+            </div>
+            <div class="principle-card">
+                <h4>Privacy</h4>
+                <p>Never requests identifying details; encourages redaction of sensitive data.</p>
+            </div>
+            <div class="principle-card">
+                <h4>Evidence Integrity</h4>
+                <p>Neutral language, no fabricated facts, no coaching false statements.</p>
+            </div>
+            <div class="principle-card">
+                <h4>Child-Centered</h4>
+                <p>Every recommendation prioritizes the child's emotional and psychological wellbeing.</p>
+            </div>
+            <div class="principle-card">
+                <h4>Both Parents Matter</h4>
+                <p>Supports the child's right to a safe relationship with both parents.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p class="footer-tagline">PACCS — Because every child deserves emotional and psychological safety.</p>
+    <p class="footer-credit">Created by Doug Devitre</p>
+</footer>
+
+</body>
+</html>
