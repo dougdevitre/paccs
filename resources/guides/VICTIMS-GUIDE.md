@@ -82,7 +82,7 @@ Use this format:
 
 **Golden Rule:** If it's not documented, it didn't happen (in the eyes of the court).
 
-See the [Documentation Skill](../paccs-tech-documentation/SKILL.md) for full templates.
+See the [Documentation Skill](../skills/documentation/SKILL.md) for full templates.
 
 ---
 
@@ -233,7 +233,7 @@ flowchart TB
 
 Pick ONE thing from this list and do it today:
 
-- [ ] Start an incident log (use the template in [paccs-tech-documentation](../paccs-tech-documentation/SKILL.md))
+- [ ] Start an incident log (use the template in [paccs-tech-documentation](../skills/documentation/SKILL.md))
 - [ ] Save all recent texts/emails from co-parent to a secure backup
 - [ ] Call a family law attorney who understands alienation
 - [ ] Find a therapist for yourself

@@ -21,27 +21,35 @@ PACCS is a multidisciplinary organization focused on protecting children's emoti
 
 ```mermaid
 graph TB
-    subgraph PACCS["PACCS Tech Platform"]
+    subgraph PACCS["PACCS Tech Platform — skills/"]
         direction TB
         
         subgraph victim["Victim Support Skills"]
-            ADV["paccs-tech-advocate<br/><i>Primary Support</i>"]
-            CRS["paccs-tech-crisis-safety<br/><i>Emergency Response</i>"]
-            DOC["paccs-tech-documentation<br/><i>Court-Ready Evidence</i>"]
-            RUN["paccs-tech-reunification<br/><i>Family Reconnection</i>"]
+            ADV["skills/advocate<br/><i>Primary Support</i>"]
+            CRS["skills/crisis-safety<br/><i>Emergency Response</i>"]
+            DOC["skills/documentation<br/><i>Court-Ready Evidence</i>"]
+            RUN["skills/reunification<br/><i>Family Reconnection</i>"]
         end
         
         subgraph committee["Committee Skills"]
-            POL["paccs-tech-policy-education<br/><i>Outreach & Legislation</i>"]
-            LIV["paccs-tech-lived-experience<br/><i>Survivor Voices</i>"]
-            RES["paccs-tech-research-integrity<br/><i>Fact-Checking & Science</i>"]
-            CUR["paccs-tech-curriculum-training<br/><i>Professional Education</i>"]
-            LEG["paccs-tech-legal-advisory<br/><i>Legal Standards</i>"]
-            ADC["paccs-tech-advisory-council<br/><i>Strategic Guidance</i>"]
+            POL["skills/policy-education<br/><i>Outreach & Legislation</i>"]
+            LIV["skills/lived-experience<br/><i>Survivor Voices</i>"]
+            RES["skills/research-integrity<br/><i>Fact-Checking & Science</i>"]
+            CUR["skills/curriculum-training<br/><i>Professional Education</i>"]
+            LEG["skills/legal-advisory<br/><i>Legal Standards</i>"]
+            ADC["skills/advisory-council<br/><i>Strategic Guidance</i>"]
         end
     end
 
+    subgraph resources["resources/"]
+        TPL["templates/<br/><i>Fillable templates</i>"]
+        SCR["scripts/<br/><i>Communication scripts</i>"]
+        EDU["education/<br/><i>Fact sheets & glossary</i>"]
+        GDE["guides/<br/><i>Handbooks & protocols</i>"]
+    end
+
     Parents["Parents & Families"] --> victim
+    Parents --> resources
     Courts["Courts & Legal<br/>Professionals"] --> LEG
     Courts --> CUR
     Legislators["Legislators &<br/>Policymakers"] --> POL
@@ -57,6 +65,7 @@ graph TB
 
     style victim fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
     style committee fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style resources fill:#fff3e0,stroke:#e65100,stroke-width:2px
     style PACCS fill:#fff,stroke:#333,stroke-width:3px
 ```
 
@@ -70,13 +79,13 @@ How a targeted parent moves through PACCS resources from crisis to recovery:
 flowchart LR
     Crisis["CRISIS<br/>Contact denied<br/>False allegations<br/>Child withheld"]
     
-    CS["paccs-tech-<br/>crisis-safety<br/>─────────<br/>Emergency actions<br/>Safety planning<br/>Crisis hotlines"]
+    CS["Crisis Safety<br/>─────────<br/>Emergency actions<br/>Safety planning<br/>Crisis hotlines"]
     
-    DOC["paccs-tech-<br/>documentation<br/>─────────<br/>Incident logs<br/>Evidence collection<br/>Pattern tracking"]
+    DOC["Documentation<br/>─────────<br/>Incident logs<br/>Evidence collection<br/>Pattern tracking"]
     
-    ADV["paccs-tech-<br/>advocate<br/>─────────<br/>Court prep<br/>Attorney vetting<br/>Rights awareness<br/>Communication"]
+    ADV["Advocate<br/>─────────<br/>Court prep<br/>Attorney vetting<br/>Rights awareness<br/>Communication"]
     
-    RUN["paccs-tech-<br/>reunification<br/>─────────<br/>Reconnection<br/>Therapist vetting<br/>Age-appropriate<br/>communication"]
+    RUN["Reunification<br/>─────────<br/>Reconnection<br/>Therapist vetting<br/>Age-appropriate<br/>communication"]
     
     Recovery["RECOVERY<br/>Restored contact<br/>Rebuilt relationship<br/>Ongoing support"]
     
@@ -148,23 +157,23 @@ flowchart TB
 
 ### Skills for Victim Support
 
-| Skill | Purpose | Key Deliverables |
-|-------|---------|-----------------|
-| `paccs-tech-advocate` | Primary support for targeted parents | Incident logs, court prep checklists, communication scripts, evidence organization, safety plans, resource navigation |
-| `paccs-tech-crisis-safety` | Emergency response guidance | Emergency action checklists for 6 crisis scenarios, safety plan templates, crisis hotline resources |
-| `paccs-tech-documentation` | Court-ready evidence building | Incident log templates, master timelines, behavior pattern trackers, evidence inventories, court-ready language guide |
-| `paccs-tech-reunification` | Family reconnection support | Age-appropriate letters, therapist vetting, reunification milestone tracking, red flag identification |
+| Skill | Path | Purpose | Key Deliverables |
+|-------|------|---------|-----------------|
+| Advocate | `skills/advocate/` | Primary support for targeted parents | Incident logs, court prep checklists, communication scripts, evidence organization, safety plans, resource navigation |
+| Crisis Safety | `skills/crisis-safety/` | Emergency response guidance | Emergency action checklists for 6 crisis scenarios, safety plan templates, crisis hotline resources |
+| Documentation | `skills/documentation/` | Court-ready evidence building | Incident log templates, master timelines, behavior pattern trackers, evidence inventories, court-ready language guide |
+| Reunification | `skills/reunification/` | Family reconnection support | Age-appropriate letters, therapist vetting, reunification milestone tracking, red flag identification |
 
 ### Skills for Committees
 
-| Skill | Purpose | Key Deliverables |
-|-------|---------|-----------------|
-| `paccs-tech-policy-education` | Public education & legislative outreach | Legislative one-pagers, myth vs. fact sheets, video scripts, audience-specific advocacy asks |
-| `paccs-tech-lived-experience` | Survivor-informed review & testimony | Anonymized case summaries, testimony preparation, material review, system gap reports |
-| `paccs-tech-research-integrity` | Scientific accuracy & fact-checking | Fact-check reports, research summaries, legislation tracking, misinformation alerts |
-| `paccs-tech-curriculum-training` | Professional education programs | CEU/CLE modules, training outlines, assessments, facilitator guides, role-play scenarios |
-| `paccs-tech-legal-advisory` | Legal standards & court resources | Legislation summaries, motion templates, courtroom scripts, CLE content, legal trend reports |
-| `paccs-tech-advisory-council` | Strategic organizational guidance | Strategic reviews, risk assessments, cross-committee coordination, partnership recommendations |
+| Skill | Path | Purpose | Key Deliverables |
+|-------|------|---------|-----------------|
+| Policy Education | `skills/policy-education/` | Public education & legislative outreach | Legislative one-pagers, myth vs. fact sheets, video scripts, audience-specific advocacy asks |
+| Lived Experience | `skills/lived-experience/` | Survivor-informed review & testimony | Anonymized case summaries, testimony preparation, material review, system gap reports |
+| Research Integrity | `skills/research-integrity/` | Scientific accuracy & fact-checking | Fact-check reports, research summaries, legislation tracking, misinformation alerts |
+| Curriculum Training | `skills/curriculum-training/` | Professional education programs | CEU/CLE modules, training outlines, assessments, facilitator guides, role-play scenarios |
+| Legal Advisory | `skills/legal-advisory/` | Legal standards & court resources | Legislation summaries, motion templates, courtroom scripts, CLE content, legal trend reports |
+| Advisory Council | `skills/advisory-council/` | Strategic organizational guidance | Strategic reviews, risk assessments, cross-committee coordination, partnership recommendations |
 
 ---
 
@@ -266,7 +275,7 @@ flowchart LR
 
 ## Artifact Roadmap Tiers
 
-Prioritized build plan for PACCS advocacy resources. See [full roadmap](docs/ARTIFACTS-ROADMAP.md) for 100+ items.
+Prioritized build plan for PACCS advocacy resources. See [full roadmap](resources/guides/ARTIFACTS-ROADMAP.md) for 100+ items.
 
 ```mermaid
 flowchart TB
@@ -369,7 +378,7 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-    SRC["SKILL.md<br/>source files"] -->|"make lint"| LINT["Validate<br/>frontmatter"]
+    SRC["skills/*/SKILL.md<br/>source files"] -->|"make lint"| LINT["Validate<br/>frontmatter"]
     SRC -->|"make build"| ZIP["Package into<br/>.skill archives"]
     ZIP -->|"make clean"| DEL["Remove<br/>build artifacts"]
     
@@ -383,9 +392,9 @@ flowchart LR
 
 ```bash
 make build                        # Package all 10 skills into .skill files
-make paccs-tech-advocate.skill    # Build a single skill
 make lint                         # Validate all SKILL.md frontmatter
 make clean                        # Remove build artifacts
+make help                         # Show all available commands
 ```
 
 ---
@@ -394,50 +403,63 @@ make clean                        # Remove build artifacts
 
 ```
 paccs/
-├── docs/
-│   ├── ADVOCATE-HANDBOOK.md               # Comprehensive advocate support guide
-│   ├── ARTIFACTS-ROADMAP.md               # 100+ prioritized artifacts to build
-│   ├── PACCS Committee Handbook.pdf       # Full committee handbook
-│   ├── REUNIFICATION-PROTOCOL.md          # 5-phase reunification framework
-│   └── VICTIMS-GUIDE.md                   # Step-by-step guide for targeted parents
-├── paccs-tech-advocate/                   # Primary victim support
-│   └── SKILL.md
-├── paccs-tech-crisis-safety/              # Crisis & safety planning
-│   └── SKILL.md
-├── paccs-tech-documentation/              # Documentation & evidence
-│   └── SKILL.md
-├── paccs-tech-reunification/              # Reunification support
-│   └── SKILL.md
-├── paccs-tech-policy-education/           # Policy & outreach
-│   └── SKILL.md
-├── paccs-tech-lived-experience/           # Lived experience
-│   └── SKILL.md
-├── paccs-tech-research-integrity/         # Research integrity
-│   └── SKILL.md
-├── paccs-tech-curriculum-training/        # Training & curriculum
-│   └── SKILL.md
-├── paccs-tech-legal-advisory/             # Legal advisory
-│   └── SKILL.md
-├── paccs-tech-advisory-council/           # Advisory council
-│   └── SKILL.md
-├── .gitignore
-├── CHANGELOG.md                           # Version history
-├── LICENSE                                # CC BY 4.0 license
-├── Makefile                               # Build automation
-├── README.md
+├── skills/                                # AI skill definitions (10 roles)
+│   ├── advocate/SKILL.md                  #   Primary victim support
+│   ├── crisis-safety/SKILL.md             #   Crisis & safety planning
+│   ├── documentation/SKILL.md             #   Documentation & evidence
+│   ├── reunification/SKILL.md             #   Reunification support
+│   ├── policy-education/SKILL.md          #   Policy & outreach
+│   ├── lived-experience/SKILL.md          #   Lived experience
+│   ├── research-integrity/SKILL.md        #   Research integrity
+│   ├── curriculum-training/SKILL.md       #   Training & curriculum
+│   ├── legal-advisory/SKILL.md            #   Legal advisory
+│   └── advisory-council/SKILL.md          #   Advisory council
+├── resources/                             # Human-facing materials
+│   ├── guides/                            #   Handbooks & protocols
+│   │   ├── ADVOCATE-HANDBOOK.md
+│   │   ├── ARTIFACTS-ROADMAP.md
+│   │   ├── REUNIFICATION-PROTOCOL.md
+│   │   ├── VICTIMS-GUIDE.md
+│   │   └── PACCS Committee Handbook.pdf
+│   ├── templates/                         #   Fillable templates
+│   │   ├── communication/
+│   │   ├── court-prep/
+│   │   ├── documentation/
+│   │   ├── reunification/
+│   │   ├── safety/
+│   │   └── vetting/
+│   ├── scripts/                           #   Communication scripts
+│   │   ├── attorney/
+│   │   ├── co-parent/
+│   │   ├── court-testimony/
+│   │   ├── media-interview/
+│   │   └── school/
+│   └── education/                         #   Glossary, fact sheets, briefs
+├── outreach/                              # Public-facing materials
+│   ├── campaigns/                         #   8 advocate-type campaigns
+│   ├── legislative/
+│   ├── media/
+│   ├── myth-vs-fact/
+│   ├── social-media/
+│   └── video-scripts/
+├── processes/                             # Operational workflows
 ├── index.html                             # Public-facing landing page
-└── paccs-tech.skill                       # Unified skill (all 10 roles combined)
+├── paccs-tech.skill                       # Unified skill (all 10 roles)
+├── Makefile                               # Build automation
+├── CHANGELOG.md
+├── LICENSE
+└── README.md
 ```
 
 ---
 
 ## Key Resources
 
-- **[VICTIMS-GUIDE.md](docs/VICTIMS-GUIDE.md)** — Step-by-step guide for parents experiencing alienation — what to do right now, how to build your case, find the right help, protect your mental health, and never give up.
-- **[ADVOCATE-HANDBOOK.md](docs/ADVOCATE-HANDBOOK.md)** — Comprehensive handbook for PACCS advocates — how to support victims, navigate systems, help build cases, work with schools and medical providers, and avoid burnout.
-- **[REUNIFICATION-PROTOCOL.md](docs/REUNIFICATION-PROTOCOL.md)** — 5-phase reunification protocol with criminal custodial interference guidance, diagnosis & assessment frameworks (DSM-5, ICD-11), treatment interventions, evaluator standards, and adult children of alienation support.
-- **[ARTIFACTS-ROADMAP.md](docs/ARTIFACTS-ROADMAP.md)** — Prioritized list of 100+ artifacts to build, organized into 5 tiers from immediate crisis resources to long-term organizational infrastructure.
-- **[PACCS Committee Handbook](docs/PACCS%20Committee%20Handbook.pdf)** — Complete handbook covering all 7 PACCS committees with definitions, structure, goals, and deliverables.
+- **[VICTIMS-GUIDE.md](resources/guides/VICTIMS-GUIDE.md)** — Step-by-step guide for parents experiencing alienation — what to do right now, how to build your case, find the right help, protect your mental health, and never give up.
+- **[ADVOCATE-HANDBOOK.md](resources/guides/ADVOCATE-HANDBOOK.md)** — Comprehensive handbook for PACCS advocates — how to support victims, navigate systems, help build cases, work with schools and medical providers, and avoid burnout.
+- **[REUNIFICATION-PROTOCOL.md](resources/guides/REUNIFICATION-PROTOCOL.md)** — 5-phase reunification protocol with criminal custodial interference guidance, diagnosis & assessment frameworks (DSM-5, ICD-11), treatment interventions, evaluator standards, and adult children of alienation support.
+- **[ARTIFACTS-ROADMAP.md](resources/guides/ARTIFACTS-ROADMAP.md)** — Prioritized list of 100+ artifacts to build, organized into 5 tiers from immediate crisis resources to long-term organizational infrastructure.
+- **[PACCS Committee Handbook](resources/guides/PACCS%20Committee%20Handbook.pdf)** — Complete handbook covering all 7 PACCS committees with definitions, structure, goals, and deliverables.
 
 ---
 

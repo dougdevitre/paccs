@@ -27,10 +27,10 @@
 
 ## Related Resources
 
-- **[Templates](/templates/)** — Ready-to-use templates for documentation, safety planning, court preparation, and communication
-- **[Education](/education/)** — Educational materials including glossary and research briefs
-- **[Docs](/docs/)** — Comprehensive guides including the Advocate Handbook, Victims Guide, and Reunification Protocol
-- **[Scripts](/scripts/)** — Communication scripts for co-parents, attorneys, schools, and court testimony
+- **[Templates](/resources/templates/)** — Ready-to-use templates for documentation, safety planning, court preparation, and communication
+- **[Education](/resources/education/)** — Educational materials including glossary and research briefs
+- **[Guides](/resources/guides/)** — Comprehensive guides including the Advocate Handbook, Victims Guide, and Reunification Protocol
+- **[Scripts](/resources/scripts/)** — Communication scripts for co-parents, attorneys, schools, and court testimony
 
 ---
 
