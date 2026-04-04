@@ -15,5 +15,6 @@ Thumbs.db
 *.pem
 *.key
 
-# Build artifacts
+# Build artifacts (packaged zip archives)
 *.skill
+!paccs-tech.skill
