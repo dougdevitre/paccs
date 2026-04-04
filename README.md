@@ -395,8 +395,11 @@ make clean                        # Remove build artifacts
 ```
 paccs/
 ├── docs/
+│   ├── ADVOCATE-HANDBOOK.md               # Comprehensive advocate support guide
+│   ├── ARTIFACTS-ROADMAP.md               # 100+ prioritized artifacts to build
 │   ├── PACCS Committee Handbook.pdf       # Full committee handbook
-│   └── ARTIFACTS-ROADMAP.md               # 100+ prioritized artifacts to build
+│   ├── REUNIFICATION-PROTOCOL.md          # 5-phase reunification framework
+│   └── VICTIMS-GUIDE.md                   # Step-by-step guide for targeted parents
 ├── paccs-tech-advocate/                   # Primary victim support
 │   └── SKILL.md
 ├── paccs-tech-crisis-safety/              # Crisis & safety planning
@@ -418,8 +421,12 @@ paccs/
 ├── paccs-tech-advisory-council/           # Advisory council
 │   └── SKILL.md
 ├── .gitignore
-├── Makefile
-└── README.md
+├── CHANGELOG.md                           # Version history
+├── LICENSE                                # CC BY 4.0 license
+├── Makefile                               # Build automation
+├── README.md
+├── index.html                             # Public-facing landing page
+└── paccs-tech.skill                       # Unified skill (all 10 roles combined)
 ```
 
 ---
