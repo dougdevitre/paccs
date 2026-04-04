@@ -204,7 +204,7 @@ Here's what we recommend:
 3. Only restrict access when you have a court order on file
 4. When in doubt, consult your school attorney
 
-PACCS has a template letter that parents can use to assert their rights at your school. Being familiar with it helps you respond professionally: [link to scripts/school/school-communication-scripts.md]
+PACCS has a template letter that parents can use to assert their rights at your school. Being familiar with it helps you respond professionally: [link to resources/scripts/school/school-communication-scripts.md]
 
 Small changes in your process can make a huge difference for a child.
 
@@ -238,12 +238,12 @@ Together, we can make schools a safe, neutral space for every child.
 
 | Resource | File Path | Use Case |
 |----------|-----------|----------|
-| School Communication Scripts | `scripts/school/school-communication-scripts.md` | Responding to parent requests and conflicts |
-| Medical Provider Scripts | `scripts/school/medical-provider-scripts.md` | Coordinating with health providers |
-| Glossary | `education/glossary.md` | Understanding alienation terminology |
-| Co-Parent Communication Templates | `templates/communication/co-parent-communication-templates.md` | Understanding what parents are dealing with |
-| Alienation Identification Checklist | `templates/documentation/alienation-identification-checklist.md` | Recognizing patterns |
-| Alienation vs. Estrangement Chart | `education/alienation-vs-estrangement-chart.md` | Understanding the distinction |
+| School Communication Scripts | `resources/scripts/school/school-communication-scripts.md` | Responding to parent requests and conflicts |
+| Medical Provider Scripts | `resources/scripts/school/medical-provider-scripts.md` | Coordinating with health providers |
+| Glossary | `resources/education/glossary.md` | Understanding alienation terminology |
+| Co-Parent Communication Templates | `resources/templates/communication/co-parent-communication-templates.md` | Understanding what parents are dealing with |
+| Alienation Identification Checklist | `resources/templates/documentation/alienation-identification-checklist.md` | Recognizing patterns |
+| Alienation vs. Estrangement Chart | `resources/education/alienation-vs-estrangement-chart.md` | Understanding the distinction |
 
 ---
 

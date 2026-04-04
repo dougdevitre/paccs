@@ -4,6 +4,29 @@ All notable changes to the PACCS project will be documented in this file.
 
 ---
 
+## [2.0.0] - 2026-04-04
+
+### Changed — Repository Restructure (BREAKING)
+- **skills/** — Consolidated 10 `paccs-tech-*` directories into `skills/` (e.g., `paccs-tech-advocate/` → `skills/advocate/`)
+- **resources/** — Consolidated `templates/`, `scripts/`, `education/` under `resources/`
+- **resources/guides/** — Moved `docs/` to `resources/guides/`
+- **Makefile** — Updated skill paths to `skills/*/SKILL.md`; `make lint` and `make build` work with new structure
+- **Root directory** — Reduced from 16 top-level directories + 6 files → 4 directories + 6 files
+- Updated all cross-references across 50+ files
+
+### Migration Guide
+| Old Path | New Path |
+|----------|----------|
+| `paccs-tech-advocate/` | `skills/advocate/` |
+| `paccs-tech-crisis-safety/` | `skills/crisis-safety/` |
+| `paccs-tech-*` (all 10) | `skills/*/` |
+| `docs/` | `resources/guides/` |
+| `templates/` | `resources/templates/` |
+| `scripts/` | `resources/scripts/` |
+| `education/` | `resources/education/` |
+
+---
+
 ## [1.3.0] - 2026-04-04
 
 ### Added — Marketing Campaigns by Advocate Type (8 new files)

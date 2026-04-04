@@ -280,7 +280,7 @@ PACCS — Professional Alliance for Child Centered Safety
 | Testimony Template | `outreach/legislative/testimony-template.md` | Constituent witness preparation for hearings |
 | Judicial Bench Card | `outreach/legislative/judicial-bench-card.md` | Reference card for judges; demonstrates practical application |
 | Audience-Specific Advocacy Asks | `outreach/legislative/audience-specific-advocacy-asks.md` | Tailored asks for different policymaker roles |
-| Alienation as Child Abuse Brief | `education/alienation-as-child-abuse-brief.md` | Research summary on psychological harm to children |
+| Alienation as Child Abuse Brief | `resources/education/alienation-as-child-abuse-brief.md` | Research summary on psychological harm to children |
 | Legislative Engagement Process | `processes/legislative-engagement-process.md` | Internal guide for advocates conducting outreach |
 
 ---

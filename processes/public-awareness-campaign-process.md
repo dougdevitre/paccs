@@ -47,7 +47,7 @@
 - [ ] Reach out to partners with co-branded opportunities
 - [ ] Build media list (local newspapers, radio, TV, podcasts, online outlets)
 - [ ] Send media advisory or pitch to journalists
-- [ ] Identify and brief spokespeople (see `scripts/media-interview/media-talking-points.md`)
+- [ ] Identify and brief spokespeople (see `resources/scripts/media-interview/media-talking-points.md`)
 - [ ] Schedule any events (webinars, rallies, press conferences)
 
 ### Weeks 7-8: Pre-Launch

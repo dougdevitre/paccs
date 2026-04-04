@@ -266,7 +266,7 @@ flowchart LR
 
 ## Artifact Roadmap Tiers
 
-Prioritized build plan for PACCS advocacy resources. See [full roadmap](docs/ARTIFACTS-ROADMAP.md) for 100+ items.
+Prioritized build plan for PACCS advocacy resources. See [full roadmap](resources/guides/ARTIFACTS-ROADMAP.md) for 100+ items.
 
 ```mermaid
 flowchart TB
@@ -394,79 +394,63 @@ make clean                        # Remove build artifacts
 
 ```
 paccs/
-├── docs/                                  # Core handbooks & guides
-│   ├── ADVOCATE-HANDBOOK.md
-│   ├── ARTIFACTS-ROADMAP.md
-│   ├── PACCS Committee Handbook.pdf
-│   ├── REUNIFICATION-PROTOCOL.md
-│   └── VICTIMS-GUIDE.md
-├── templates/                             # Standalone fillable templates
-│   ├── communication/                     #   Co-parent BIFF scripts
-│   ├── court-prep/                        #   Know-your-rights, court checklists
-│   ├── documentation/                     #   Incident logs, timelines, trackers
-│   ├── reunification/                     #   Letters, readiness checklists
-│   ├── safety/                            #   Safety plans, emergency guides
-│   └── vetting/                           #   Attorney & therapist questionnaires
-├── scripts/                               # Communication scripts
-│   ├── attorney/                          #   Attorney & GAL meeting prep
-│   ├── co-parent/                         #   BIFF method, exchanges, allegations
-│   ├── court-testimony/                   #   Testimony preparation
-│   ├── media-interview/                   #   Media talking points
-│   └── school/                            #   School & medical provider scripts
+├── skills/                                # AI skill definitions (10 roles)
+│   ├── advocate/SKILL.md                  #   Primary victim support
+│   ├── crisis-safety/SKILL.md             #   Crisis & safety planning
+│   ├── documentation/SKILL.md             #   Documentation & evidence
+│   ├── reunification/SKILL.md             #   Reunification support
+│   ├── policy-education/SKILL.md          #   Policy & outreach
+│   ├── lived-experience/SKILL.md          #   Lived experience
+│   ├── research-integrity/SKILL.md        #   Research integrity
+│   ├── curriculum-training/SKILL.md       #   Training & curriculum
+│   ├── legal-advisory/SKILL.md            #   Legal advisory
+│   └── advisory-council/SKILL.md          #   Advisory council
+├── resources/                             # Human-facing materials
+│   ├── guides/                            #   Handbooks & protocols
+│   │   ├── ADVOCATE-HANDBOOK.md
+│   │   ├── ARTIFACTS-ROADMAP.md
+│   │   ├── REUNIFICATION-PROTOCOL.md
+│   │   ├── VICTIMS-GUIDE.md
+│   │   └── PACCS Committee Handbook.pdf
+│   ├── templates/                         #   Fillable templates
+│   │   ├── communication/
+│   │   ├── court-prep/
+│   │   ├── documentation/
+│   │   ├── reunification/
+│   │   ├── safety/
+│   │   └── vetting/
+│   ├── scripts/                           #   Communication scripts
+│   │   ├── attorney/
+│   │   ├── co-parent/
+│   │   ├── court-testimony/
+│   │   ├── media-interview/
+│   │   └── school/
+│   └── education/                         #   Glossary, fact sheets, briefs
 ├── outreach/                              # Public-facing materials
-│   ├── legislative/                       #   Briefing packets, model language
-│   ├── media/                             #   Press releases, op-eds
-│   ├── myth-vs-fact/                      #   5 evidence-based debunking sheets
-│   ├── social-media/                      #   Campaign kit with post templates
-│   └── video-scripts/                     #   60-second explainer scripts
+│   ├── campaigns/                         #   8 advocate-type campaigns
+│   ├── legislative/
+│   ├── media/
+│   ├── myth-vs-fact/
+│   ├── social-media/
+│   └── video-scripts/
 ├── processes/                             # Operational workflows
-│   ├── legislative-engagement-process.md
-│   ├── material-distribution-workflow.md
-│   ├── outreach-campaign-planning.md
-│   └── public-awareness-campaign-process.md
-├── education/                             # Educational reference materials
-│   ├── alienation-as-child-abuse-brief.md
-│   ├── alienation-vs-estrangement-chart.md
-│   ├── false-allegations-fact-sheet.md
-│   └── glossary.md
-├── paccs-tech-advocate/                   # Skill: Primary victim support
-│   └── SKILL.md
-├── paccs-tech-crisis-safety/              # Skill: Crisis & safety planning
-│   └── SKILL.md
-├── paccs-tech-documentation/              # Skill: Documentation & evidence
-│   └── SKILL.md
-├── paccs-tech-reunification/              # Skill: Reunification support
-│   └── SKILL.md
-├── paccs-tech-policy-education/           # Skill: Policy & outreach
-│   └── SKILL.md
-├── paccs-tech-lived-experience/           # Skill: Lived experience
-│   └── SKILL.md
-├── paccs-tech-research-integrity/         # Skill: Research integrity
-│   └── SKILL.md
-├── paccs-tech-curriculum-training/        # Skill: Training & curriculum
-│   └── SKILL.md
-├── paccs-tech-legal-advisory/             # Skill: Legal advisory
-│   └── SKILL.md
-├── paccs-tech-advisory-council/           # Skill: Advisory council
-│   └── SKILL.md
-├── .gitignore
-├── CHANGELOG.md                           # Version history
-├── LICENSE                                # CC BY 4.0 license
-├── Makefile                               # Build automation
-├── README.md
 ├── index.html                             # Public-facing landing page
-└── paccs-tech.skill                       # Unified skill (all 10 roles combined)
+├── paccs-tech.skill                       # Unified skill (all 10 roles)
+├── Makefile                               # Build automation
+├── CHANGELOG.md
+├── LICENSE
+└── README.md
 ```
 
 ---
 
 ## Key Resources
 
-- **[VICTIMS-GUIDE.md](docs/VICTIMS-GUIDE.md)** — Step-by-step guide for parents experiencing alienation — what to do right now, how to build your case, find the right help, protect your mental health, and never give up.
-- **[ADVOCATE-HANDBOOK.md](docs/ADVOCATE-HANDBOOK.md)** — Comprehensive handbook for PACCS advocates — how to support victims, navigate systems, help build cases, work with schools and medical providers, and avoid burnout.
-- **[REUNIFICATION-PROTOCOL.md](docs/REUNIFICATION-PROTOCOL.md)** — 5-phase reunification protocol with criminal custodial interference guidance, diagnosis & assessment frameworks (DSM-5, ICD-11), treatment interventions, evaluator standards, and adult children of alienation support.
-- **[ARTIFACTS-ROADMAP.md](docs/ARTIFACTS-ROADMAP.md)** — Prioritized list of 100+ artifacts to build, organized into 5 tiers from immediate crisis resources to long-term organizational infrastructure.
-- **[PACCS Committee Handbook](docs/PACCS%20Committee%20Handbook.pdf)** — Complete handbook covering all 7 PACCS committees with definitions, structure, goals, and deliverables.
+- **[VICTIMS-GUIDE.md](resources/guides/VICTIMS-GUIDE.md)** — Step-by-step guide for parents experiencing alienation — what to do right now, how to build your case, find the right help, protect your mental health, and never give up.
+- **[ADVOCATE-HANDBOOK.md](resources/guides/ADVOCATE-HANDBOOK.md)** — Comprehensive handbook for PACCS advocates — how to support victims, navigate systems, help build cases, work with schools and medical providers, and avoid burnout.
+- **[REUNIFICATION-PROTOCOL.md](resources/guides/REUNIFICATION-PROTOCOL.md)** — 5-phase reunification protocol with criminal custodial interference guidance, diagnosis & assessment frameworks (DSM-5, ICD-11), treatment interventions, evaluator standards, and adult children of alienation support.
+- **[ARTIFACTS-ROADMAP.md](resources/guides/ARTIFACTS-ROADMAP.md)** — Prioritized list of 100+ artifacts to build, organized into 5 tiers from immediate crisis resources to long-term organizational infrastructure.
+- **[PACCS Committee Handbook](resources/guides/PACCS%20Committee%20Handbook.pdf)** — Complete handbook covering all 7 PACCS committees with definitions, structure, goals, and deliverables.
 
 ---
 

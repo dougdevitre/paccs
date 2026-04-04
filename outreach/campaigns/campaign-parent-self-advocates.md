@@ -249,18 +249,18 @@ Keep going. Your child needs you.
 
 | Resource | File Path | Campaign Phase |
 |----------|-----------|----------------|
-| Incident Log Template | `templates/documentation/incident-log-template.md` | Phase 2 |
-| Emergency Action Guide | `templates/safety/emergency-action-guide.md` | Phase 1 |
-| Safety Plan Template | `templates/safety/safety-plan-template.md` | Phase 1 |
-| Alienation Identification Checklist | `templates/documentation/alienation-identification-checklist.md` | Phase 1 |
-| Evidence Organization Checklist | `templates/documentation/evidence-organization-checklist.md` | Phase 2 |
-| Master Timeline Template | `templates/documentation/master-timeline-template.md` | Phase 2 |
-| Know Your Rights One-Pager | `templates/court-prep/know-your-rights-one-pager.md` | Phase 2 |
-| BIFF Communication Scripts | `scripts/co-parent/biff-method-scripts.md` | Phase 2 |
-| Attorney Vetting Questionnaire | `templates/vetting/attorney-vetting-questionnaire.md` | Phase 3 |
-| Self-Care Guide | `templates/safety/self-care-guide.md` | Phase 4 |
-| Court Testimony Prep | `scripts/court-testimony/testimony-preparation-scripts.md` | Phase 3 |
-| Co-Parent Communication Templates | `templates/communication/co-parent-communication-templates.md` | Phase 2 |
+| Incident Log Template | `resources/templates/documentation/incident-log-template.md` | Phase 2 |
+| Emergency Action Guide | `resources/templates/safety/emergency-action-guide.md` | Phase 1 |
+| Safety Plan Template | `resources/templates/safety/safety-plan-template.md` | Phase 1 |
+| Alienation Identification Checklist | `resources/templates/documentation/alienation-identification-checklist.md` | Phase 1 |
+| Evidence Organization Checklist | `resources/templates/documentation/evidence-organization-checklist.md` | Phase 2 |
+| Master Timeline Template | `resources/templates/documentation/master-timeline-template.md` | Phase 2 |
+| Know Your Rights One-Pager | `resources/templates/court-prep/know-your-rights-one-pager.md` | Phase 2 |
+| BIFF Communication Scripts | `resources/scripts/co-parent/biff-method-scripts.md` | Phase 2 |
+| Attorney Vetting Questionnaire | `resources/templates/vetting/attorney-vetting-questionnaire.md` | Phase 3 |
+| Self-Care Guide | `resources/templates/safety/self-care-guide.md` | Phase 4 |
+| Court Testimony Prep | `resources/scripts/court-testimony/testimony-preparation-scripts.md` | Phase 3 |
+| Co-Parent Communication Templates | `resources/templates/communication/co-parent-communication-templates.md` | Phase 2 |
 
 ---
 

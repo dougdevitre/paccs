@@ -247,10 +247,10 @@ The following resources are available for distribution throughout this campaign:
 | Resource | Description | File |
 |----------|-------------|------|
 | Judicial Bench Card | Decision-support tool for courtroom use in alienation cases | [judicial-bench-card.md](../legislative/judicial-bench-card.md) |
-| Alienation vs. Estrangement Chart | Differential indicator comparison based on peer-reviewed research | [alienation-vs-estrangement-chart.md](../../education/alienation-vs-estrangement-chart.md) |
-| False Allegations Fact Sheet | Research compilation on false allegations in custody proceedings | [false-allegations-fact-sheet.md](../../education/false-allegations-fact-sheet.md) |
+| Alienation vs. Estrangement Chart | Differential indicator comparison based on peer-reviewed research | [alienation-vs-estrangement-chart.md](../../resources/education/alienation-vs-estrangement-chart.md) |
+| False Allegations Fact Sheet | Research compilation on false allegations in custody proceedings | [false-allegations-fact-sheet.md](../../resources/education/false-allegations-fact-sheet.md) |
 | Model Statutory Language | Research-informed definitions and legislative framework | [model-statutory-language.md](../legislative/model-statutory-language.md) |
-| Testimony Preparation Scripts | Structured preparation guide for expert and fact witness testimony | [testimony-preparation-scripts.md](../../scripts/court-testimony/testimony-preparation-scripts.md) |
+| Testimony Preparation Scripts | Structured preparation guide for expert and fact witness testimony | [testimony-preparation-scripts.md](../../resources/scripts/court-testimony/testimony-preparation-scripts.md) |
 
 ---
 

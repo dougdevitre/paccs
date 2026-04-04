@@ -202,7 +202,7 @@ That's why PACCS created a library of free, evidence-based tools designed specif
 - **Glossary of Key Terms** — So everyone speaks the same language
 - **Self-Care Guide** — Because you need care too
 
-Browse the full library: [link to templates/README.md]
+Browse the full library: [link to resources/templates/README.md]
 
 You're doing important work. We're here to support it.
 
@@ -270,16 +270,16 @@ Your work matters. Your wellbeing matters. Both can coexist.
 
 | Resource | File Path | Use Case |
 |----------|-----------|----------|
-| Incident Log Template | `templates/documentation/incident-log-template.md` | Share at meetings for member use |
-| Safety Plan Template | `templates/safety/safety-plan-template.md` | Provide to members in crisis |
-| Evidence Organization Checklist | `templates/documentation/evidence-organization-checklist.md` | "Resource Night" meeting topic |
-| Behavior Pattern Tracker | `templates/documentation/behavior-pattern-tracker.md` | Ongoing documentation tool |
-| Communication Log | `templates/documentation/communication-log-template.md` | Co-parent interaction tracking |
-| Self-Care Guide | `templates/safety/self-care-guide.md` | For leaders AND members |
-| Glossary | `education/glossary.md` | Ensure consistent terminology |
-| BIFF Communication Scripts | `scripts/co-parent/biff-method-scripts.md` | Teaching co-parent communication |
-| Attorney Vetting Questions | `templates/vetting/attorney-vetting-questionnaire.md` | Help members find good attorneys |
-| Advocate Handbook | `docs/ADVOCATE-HANDBOOK.md` | Comprehensive facilitator reference |
+| Incident Log Template | `resources/templates/documentation/incident-log-template.md` | Share at meetings for member use |
+| Safety Plan Template | `resources/templates/safety/safety-plan-template.md` | Provide to members in crisis |
+| Evidence Organization Checklist | `resources/templates/documentation/evidence-organization-checklist.md` | "Resource Night" meeting topic |
+| Behavior Pattern Tracker | `resources/templates/documentation/behavior-pattern-tracker.md` | Ongoing documentation tool |
+| Communication Log | `resources/templates/documentation/communication-log-template.md` | Co-parent interaction tracking |
+| Self-Care Guide | `resources/templates/safety/self-care-guide.md` | For leaders AND members |
+| Glossary | `resources/education/glossary.md` | Ensure consistent terminology |
+| BIFF Communication Scripts | `resources/scripts/co-parent/biff-method-scripts.md` | Teaching co-parent communication |
+| Attorney Vetting Questions | `resources/templates/vetting/attorney-vetting-questionnaire.md` | Help members find good attorneys |
+| Advocate Handbook | `resources/guides/ADVOCATE-HANDBOOK.md` | Comprehensive facilitator reference |
 
 ---
 

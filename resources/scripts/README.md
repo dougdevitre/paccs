@@ -67,9 +67,9 @@ All scripts in this collection adhere to the following principles:
 
 | Skill | Relevance |
 |-------|-----------|
-| [paccs-tech-advocate](../paccs-tech-advocate/SKILL.md) | Primary victim support — daily communication guidance |
-| [paccs-tech-crisis-safety](../paccs-tech-crisis-safety/SKILL.md) | Emergency response — false allegations and safety crises |
-| [paccs-tech-documentation](../paccs-tech-documentation/SKILL.md) | Court-ready evidence — documentation templates |
-| [paccs-tech-legal-advisory](../paccs-tech-legal-advisory/SKILL.md) | Legal standards — attorney and court preparation |
-| [paccs-tech-policy-education](../paccs-tech-policy-education/SKILL.md) | Legislative outreach — media and public advocacy |
-| [paccs-tech-reunification](../paccs-tech-reunification/SKILL.md) | Family reconnection — rebuilding parent-child relationships |
+| [paccs-tech-advocate](../skills/advocate/SKILL.md) | Primary victim support — daily communication guidance |
+| [paccs-tech-crisis-safety](../skills/crisis-safety/SKILL.md) | Emergency response — false allegations and safety crises |
+| [paccs-tech-documentation](../skills/documentation/SKILL.md) | Court-ready evidence — documentation templates |
+| [paccs-tech-legal-advisory](../skills/legal-advisory/SKILL.md) | Legal standards — attorney and court preparation |
+| [paccs-tech-policy-education](../skills/policy-education/SKILL.md) | Legislative outreach — media and public advocacy |
+| [paccs-tech-reunification](../skills/reunification/SKILL.md) | Family reconnection — rebuilding parent-child relationships |

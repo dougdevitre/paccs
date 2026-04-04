@@ -247,13 +247,13 @@ Your family's story isn't over. Keep loving. Keep hoping.
 
 | Resource | File Path | Use Case |
 |----------|-----------|----------|
-| Glossary | `education/glossary.md` | Understanding alienation terminology |
-| Understanding Child's Behavior Guide | `templates/reunification/understanding-childs-behavior-guide.md` | Interpreting the child's rejection |
-| Self-Care Guide | `templates/safety/self-care-guide.md` | Managing grief and stress |
-| Age-Appropriate Letter Templates | `templates/reunification/age-appropriate-letter-templates.md` | Maintaining connection with the child |
-| Alienation Identification Checklist | `templates/documentation/alienation-identification-checklist.md` | Recognizing the patterns |
-| Advocate Handbook | `docs/ADVOCATE-HANDBOOK.md` | Comprehensive support guide |
-| Incident Log Template | `templates/documentation/incident-log-template.md` | Documenting what they witness |
+| Glossary | `resources/education/glossary.md` | Understanding alienation terminology |
+| Understanding Child's Behavior Guide | `resources/templates/reunification/understanding-childs-behavior-guide.md` | Interpreting the child's rejection |
+| Self-Care Guide | `resources/templates/safety/self-care-guide.md` | Managing grief and stress |
+| Age-Appropriate Letter Templates | `resources/templates/reunification/age-appropriate-letter-templates.md` | Maintaining connection with the child |
+| Alienation Identification Checklist | `resources/templates/documentation/alienation-identification-checklist.md` | Recognizing the patterns |
+| Advocate Handbook | `resources/guides/ADVOCATE-HANDBOOK.md` | Comprehensive support guide |
+| Incident Log Template | `resources/templates/documentation/incident-log-template.md` | Documenting what they witness |
 
 ---
 

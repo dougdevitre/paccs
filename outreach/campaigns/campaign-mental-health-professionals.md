@@ -208,7 +208,7 @@ We have compiled a research brief summarizing the current evidence:
 - **Differential indicators:** Research-based criteria for distinguishing alienation from estrangement
 - **Treatment outcomes:** Evidence on reunification approaches and their effectiveness
 
-Download the research brief: [link to `education/alienation-as-child-abuse-brief.md`]
+Download the research brief: [link to `resources/education/alienation-as-child-abuse-brief.md`]
 
 This is not advocacy material. It is a summary of published, peer-reviewed findings compiled for clinical use.
 
@@ -224,10 +224,10 @@ Dear [Name],
 Following our research brief, we wanted to share practical clinical resources designed for direct use in assessment and treatment:
 
 **Alienation vs. Estrangement Differential Chart**
-A structured framework for clinical decision-making when a child rejects a parent. Includes behavioral indicators, narrative analysis criteria, and proportionality assessment. [link to `education/alienation-vs-estrangement-chart.md`]
+A structured framework for clinical decision-making when a child rejects a parent. Includes behavioral indicators, narrative analysis criteria, and proportionality assessment. [link to `resources/education/alienation-vs-estrangement-chart.md`]
 
 **Reunification Therapist Vetting Guide**
-Whether you are a reunification therapist evaluating your own practice or a clinician referring to one, this guide outlines the training, approach, and outcome indicators that predict effective treatment. [link to `templates/vetting/reunification-therapist-vetting-guide.md`]
+Whether you are a reunification therapist evaluating your own practice or a clinician referring to one, this guide outlines the training, approach, and outcome indicators that predict effective treatment. [link to `resources/templates/vetting/reunification-therapist-vetting-guide.md`]
 
 **Myth vs. Fact Resource Series**
 Common misconceptions about parental alienation addressed with research citations. Useful for psychoeducation with families, attorneys, and court professionals. [link to `outreach/myth-vs-fact/`]
@@ -271,12 +271,12 @@ The PACCS Clinical Resources Team
 
 | Resource | File Path | Clinical Use Case |
 |----------|-----------|-------------------|
-| Alienation as Child Abuse Brief | `education/alienation-as-child-abuse-brief.md` | Research summary for clinical reference and psychoeducation |
-| Alienation vs. Estrangement Chart | `education/alienation-vs-estrangement-chart.md` | Differential assessment framework for intake and evaluation |
+| Alienation as Child Abuse Brief | `resources/education/alienation-as-child-abuse-brief.md` | Research summary for clinical reference and psychoeducation |
+| Alienation vs. Estrangement Chart | `resources/education/alienation-vs-estrangement-chart.md` | Differential assessment framework for intake and evaluation |
 | Myth vs. Fact: Alienation Is Debunked | `outreach/myth-vs-fact/alienation-is-debunked.md` | Addressing misconceptions with research citations |
 | Myth vs. Fact: Child Resists for a Reason | `outreach/myth-vs-fact/child-resists-for-a-reason.md` | Clinical context for a child's stated preferences |
 | Myth vs. Fact: Reunification Is Forced Contact | `outreach/myth-vs-fact/reunification-is-forced-contact.md` | Psychoeducation on evidence-based reunification models |
-| Reunification Therapist Vetting Guide | `templates/vetting/reunification-therapist-vetting-guide.md` | Self-assessment for practitioners; referral criteria for colleagues |
+| Reunification Therapist Vetting Guide | `resources/templates/vetting/reunification-therapist-vetting-guide.md` | Self-assessment for practitioners; referral criteria for colleagues |
 
 ---
 

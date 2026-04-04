@@ -222,16 +222,16 @@ Ready to explore? Reply to this email or visit [link].
 
 | Resource | File Path | Use Case |
 |----------|-----------|----------|
-| Alienation vs. Estrangement Chart | `education/alienation-vs-estrangement-chart.md` | Assessment and differential diagnosis |
-| Alienation as Child Abuse Brief | `education/alienation-as-child-abuse-brief.md` | Professional education |
-| False Allegations Fact Sheet | `education/false-allegations-fact-sheet.md` | Evidence-based reference |
+| Alienation vs. Estrangement Chart | `resources/education/alienation-vs-estrangement-chart.md` | Assessment and differential diagnosis |
+| Alienation as Child Abuse Brief | `resources/education/alienation-as-child-abuse-brief.md` | Professional education |
+| False Allegations Fact Sheet | `resources/education/false-allegations-fact-sheet.md` | Evidence-based reference |
 | Myth vs. Fact Sheets (5) | `outreach/myth-vs-fact/` | Client and professional distribution |
-| Documentation Templates | `templates/documentation/` | Client use |
-| Communication Scripts | `scripts/` | Client and professional use |
+| Documentation Templates | `resources/templates/documentation/` | Client use |
+| Communication Scripts | `resources/scripts/` | Client and professional use |
 | Outreach Campaign Planning | `processes/outreach-campaign-planning.md` | Organizational use |
 | Legislative Engagement Process | `processes/legislative-engagement-process.md` | Policy advocacy |
-| Glossary | `education/glossary.md` | Standardized terminology |
-| Advocate Handbook | `docs/ADVOCATE-HANDBOOK.md` | Comprehensive reference |
+| Glossary | `resources/education/glossary.md` | Standardized terminology |
+| Advocate Handbook | `resources/guides/ADVOCATE-HANDBOOK.md` | Comprehensive reference |
 
 ---
 
